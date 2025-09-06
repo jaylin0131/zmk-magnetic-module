@@ -1,0 +1,4 @@
+config SHIELD_MAGNETIC_MODULE    
+    def_bool $(shields_list_contains,magnetic_module)
+    select ADC
+    select GPIO

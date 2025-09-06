@@ -1,0 +1,6 @@
+if SHIELD_MAGNETIC_MODULE
+
+config ZMK_KEYBOARD_NAME
+    default "magnetic_module"
+
+endif
