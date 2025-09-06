@@ -1,6 +1,10 @@
 #include <dt-bindings/zmk/matrix_transform.h>
 #include "magnetic_module-layouts.dtsi"
-#include "magnetic_module.dtsi"
+
+&physical_layout0 {
+    kscan = <&kscan0>; // Label of the kscan node this layout uses
+    transform = <&default_transform>; // Label of the matrix transform this layout uses
+};
 
 / {
 
@@ -34,4 +38,6 @@
             , <&gpio0 1 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
             ;
     };
+
+
 };
