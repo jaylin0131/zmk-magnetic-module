@@ -1,8 +1,9 @@
 #include <dt-bindings/zmk/matrix_transform.h>
-#include "magnetic_module-layout.dtsi"
+#include "magnetic_module-layouts.dtsi"
 
 / {
     chosen {
+        zmk,kscan = &kscan0;
         zmk,physical_layout = &physical_layout0;
     };
 
