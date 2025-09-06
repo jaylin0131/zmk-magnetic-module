@@ -1,6 +1,6 @@
-if SHIELD_MAGNETIC_MODULE
+if SHIELD_MAGNETIC-MODULE
 
 config ZMK_KEYBOARD_NAME
-    default "magnetic_module"
+    default "magnetic-module"
 
 endif
