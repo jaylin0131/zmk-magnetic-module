@@ -6,9 +6,14 @@ manifest:
       url-base: https://github.com/zmkfirmware
     # Additional modules containing boards/shields/custom code can be listed here as well
     # See https://docs.zephyrproject.org/3.2.0/develop/west/manifest.html#projects
+    - name: zmk-magnetic-module
+      url-base: https://github.com/jaylin0131
   projects:
     - name: zmk
       remote: zmkfirmware
       import: app/west.yml
+    - name: zmk-magnetic-module
+      remote: jaylin0131
+      revision: main
   self:
     path: config
