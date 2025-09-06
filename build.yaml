@@ -20,5 +20,5 @@
 ---
 
 include:
-  - board: nice_nano_v2
+  - board: nice_nano_v1
     shield: magnetic_module
