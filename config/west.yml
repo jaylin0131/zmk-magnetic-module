@@ -13,7 +13,7 @@ manifest:
       remote: zmkfirmware
       import: app/west.yml
     - name: zmk-magnetic-module
-      remote: jaylin0131
+      remote: zmk-magnetic-module
       revision: main
   self:
     path: config
