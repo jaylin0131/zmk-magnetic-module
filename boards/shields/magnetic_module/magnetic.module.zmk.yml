@@ -2,8 +2,8 @@ file_format: "1"
 id: magnetic_module
 name: Magnetic_Module
 type: shield
-url: https://github.com/foostan/crkbd/
-requires: [pro_micro]
+url: https://github.com/jaylin0131/zmk-magnetic-module
+requires: [nice_nano_v2]
 exposes: [i2c_oled]
 features:
   - keys
