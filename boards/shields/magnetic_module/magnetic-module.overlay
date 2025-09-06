@@ -1,5 +1,5 @@
 #include <dt-bindings/zmk/matrix_transform.h>
-#include "magnetic_module-layouts.dtsi"
+#include "magnetic-module-layouts.dtsi"
 
 &default_layout {
     transform = <&default_transform>;
