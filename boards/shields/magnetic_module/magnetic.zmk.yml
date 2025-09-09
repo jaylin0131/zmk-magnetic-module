@@ -1,6 +1,6 @@
 file_format: "1"
-id: magnetic-module
-name: Magnetic-Module
+id: magnetic
+name: Magnetic
 type: shield
 url: https://github.com/jaylin0131/zmk-magnetic-module
 requires: [nice_nano_v2]
@@ -9,4 +9,4 @@ features:
   - keys
   - display
 siblings:
-  - magnetic-module
+  - magnetic

@@ -12,8 +12,8 @@ manifest:
     - name: zmk
       remote: zmkfirmware
       import: app/west.yml
-    - name: zmk-magnetic-module
-      remote: zmk-magnetic-module
+    - name: zmk-magnetic
+      remote: zmk-magnetic
       revision: main
   self:
     path: config
