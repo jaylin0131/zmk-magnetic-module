@@ -1,6 +1,6 @@
 if SHIELD_MAGNETIC
 
 config ZMK_KEYBOARD_NAME
-    default "magnetic"
+    default "Magnetic"
 
 endif
