@@ -8,17 +8,12 @@ manifest:
     # See https://docs.zephyrproject.org/3.2.0/develop/west/manifest.html#projects
     - name: zmk-magnetic-module
       url-base: https://github.com/jaylin0131
-    - name: englmaxi
-      url-base: https://github.com/englmaxi
   projects:
     - name: zmk
       remote: zmkfirmware
       import: app/west.yml
     - name: zmk-magnetic-module
       remote: zmk-magnetic-module
-      revision: main
-    - name: zmk-dongle-display
-      remote: englmaxi
       revision: main
   self:
     path: config
